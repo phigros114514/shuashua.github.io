@@ -1,5 +1,5 @@
 'use strict';
-window._i = ['Phigros模拟器', [1, 4, 20], 1611795955, 1661850571];
+window._i = ['Phigros模拟器Rr异象UI', [1, 4, 20], 1611795955, 1661850571];
 const $ = query => document.getElementById(query);
 const $$ = query => document.body.querySelector(query);
 const $$$ = query => document.body.querySelectorAll(query);

@@ -772,8 +772,8 @@ window.onload = async function() {
 				resolve();
 			};
 		})));
-		res['JudgeLineMP'] = await createImageBitmap(imgShader(res['JudgeLine'], '#feffa9'));
-		res['JudgeLineAP'] = await createImageBitmap(imgShader(res['JudgeLine'], '#a3ffac'));
+		res['JudgeLineMP'] = await createImageBitmap(imgShader(res['JudgeLine'], '#a2eeff'));
+		res['JudgeLineAP'] = await createImageBitmap(imgShader(res['JudgeLine'], '#a2eeff'));
 		res['JudgeLineFC'] = await createImageBitmap(imgShader(res['JudgeLine'], '#a2eeff'));
 		res['TapBad'] = await createImageBitmap(imgShader(res['Tap2'], '#6c4343'));
 		res['Clicks'] = {};
